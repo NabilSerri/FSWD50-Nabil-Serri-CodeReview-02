@@ -1,6 +1,9 @@
-@media screen and (min-width: 481px)
-	#mobile-main-content
-		display: none
+#mobile-main-content
+	display: none
+
+#tablet-main-content
+	display: none
+
 *
 	margin: 0px
 
@@ -160,6 +163,12 @@ a
 	@extend #navbar
 
 @media screen and (max-width: 480px)
+	#mobile-main-content
+		display: block
+	
+	#tablet-main-content
+		display: none
+
 	.header-img2
 		display: none
 
@@ -174,6 +183,67 @@ a
 		justify-content: space-between
 		width: 455px 
 		height: 180px
+		margin-top: 10px
+		margin-bottom: 20px
+
+	.row-img
+		height: 180px
+		width: 214px
+
+	.img-txt
+		height: 180px
+		width: 214px
+
+	.row-text
+		width: 215px
+		font-size: 14px
+		bottom: 59px
+
+
+	#footer
+		margin-top: 20px
+
+	.footer-img
+		display: flex
+		justify-content: center
+	.ul-footer
+		display: flex
+		justify-content: center
+
+	.nav-a-f
+		font-size: 16px
+		text-decoration: none
+		color: white
+		margin: 14px
+
+	.name-footer
+		font-size: 16px
+
+@media screen and (min-width: 481px) and (max-width: 880px)
+	#mobile-main-content
+		display: none
+	
+	#tablet-main-content
+		display: block
+
+	.aside
+		display: none
+	
+
+	.header-img2
+		display: none
+
+	.date
+		display: none
+
+	#main-content
+		display: none
+
+	.row-tablet
+		display: flex
+		justify-content: space-around
+		width: 550px 
+		height: 200px
 		margin-top: 10px
 		margin-bottom: 20px
 
