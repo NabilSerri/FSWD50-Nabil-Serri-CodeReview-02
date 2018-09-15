@@ -229,22 +229,22 @@ a {
 
   .row-tablet {
     display: flex;
-    justify-content: space-around;
-    width: 550px;
-    height: 200px;
+    justify-content: space-between;
+    width: 820px;
+    height: 300px;
     margin-top: 10px;
     margin-bottom: 20px; }
 
   .row-img {
-    height: 180px;
-    width: 214px; }
+    height: 300px;
+    width: 400px; }
 
   .img-txt {
-    height: 180px;
-    width: 214px; }
+    height: 300px;
+    width: 400px; }
 
   .row-text {
-    width: 215px;
+    width: 400px;
     font-size: 14px;
     bottom: 59px; }
 
